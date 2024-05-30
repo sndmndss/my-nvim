@@ -1,0 +1,24 @@
+{
+  "snippets.ultisnips.pythonPrompt": false,
+  "pyright.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportUnusedVariable": "none"
+  },
+
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "pylint",
+  "python.analysis.typeCheckingMode": "basic",
+
+  "eslint.enable": true,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "python",
+    "markdown",
+    "rust"
+  ],
+}
