@@ -4,7 +4,11 @@
     "reportMissingImports": "none",
     "reportUnusedVariable": "none"
   },
-
+  "workspace.ignoredFolders": [
+    "$HOME",
+    "$HOME/.cargo/**",
+    "$HOME/.rustup/**"
+  ],
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.linting.pylintPath": "pylint",

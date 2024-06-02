@@ -43,6 +43,12 @@ return {
       })
       lspconfig.pyright.setup({
       })
+      lspconfig.rust_analyzer.setup({
+      })
+      lspconfig.bashls.setup({
+      })
+      lspconfig.marksman.setup({
+      })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
@@ -50,4 +56,7 @@ return {
       vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, {})
     end,
   },
+  {
+    'simrat39/rust-tools.nvim',
+  }
 }
